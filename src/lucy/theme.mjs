@@ -76,7 +76,7 @@ export default ({ name, colors }) => ({
     'tab.activeBackground': colors.background3,
     'tab.activeForeground': colors.pure1,
     'tab.border': colors.background3,
-    'tab.activeBorder': colors.base2,
+    'tab.activeBorder': colors.pure1,
     'tab.unfocusedActiveBorder': colors.dim3,
     'tab.inactiveBackground': colors.background3,
     'tab.inactiveForeground': colors.dim3,
