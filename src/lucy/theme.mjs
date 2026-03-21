@@ -74,7 +74,7 @@ export default ({ name, colors }) => ({
     'editorGroupHeader.tabsBackground': colors.background3,
     'editorGroupHeader.tabsBorder': colors.background3,
     'tab.activeBackground': colors.background3,
-    'tab.activeForeground': colors.base2,
+    'tab.activeForeground': colors.pure1,
     'tab.border': colors.background3,
     'tab.activeBorder': colors.base2,
     'tab.unfocusedActiveBorder': colors.dim3,
