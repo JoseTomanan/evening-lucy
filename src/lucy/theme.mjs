@@ -439,13 +439,13 @@ export default ({ name, colors }) => ({
     {
       scope: 'entity.other.inherited-class',
       settings: {
-        fontStyle: 'italic',
         foreground: colors.accent1
       }
     },
     {
       scope: 'entity.name.function',
       settings: {
+        fontStyle: 'bold',
         foreground: colors.call
       }
     },
@@ -461,7 +461,6 @@ export default ({ name, colors }) => ({
     {
       scope: 'entity.other.attribute-name',
       settings: {
-        fontStyle: 'italic',
         foreground: colors.accent1
       }
     },
@@ -485,7 +484,6 @@ export default ({ name, colors }) => ({
       scope:
         'entity.other.attribute-name.pseudo-class.cssentity.other.pseudo-class.css',
       settings: {
-        fontStyle: 'italic',
         foreground: colors.accent1
       }
     },
@@ -504,7 +502,7 @@ export default ({ name, colors }) => ({
     {
       scope: 'invalid',
       settings: {
-        fontStyle: 'italic'
+        foreground: colors.base1
       }
     },
     {
@@ -628,7 +626,7 @@ export default ({ name, colors }) => ({
     {
       scope: 'markup.quote',
       settings: {
-        fontStyle: 'italic'
+        foreground: colors.dim3
       }
     },
     {
@@ -913,7 +911,6 @@ export default ({ name, colors }) => ({
         'source.less variable.declaration.less'
       ],
       settings: {
-        fontStyle: 'italic',
         foreground: colors.accent2
       }
     },
@@ -968,28 +965,24 @@ export default ({ name, colors }) => ({
     {
       scope: 'storage.type',
       settings: {
-        fontStyle: 'italic',
         foreground: colors.accent1
       }
     },
     {
       scope: 'storage.type.extends',
       settings: {
-        fontStyle: 'normal',
         foreground: colors.base1
       }
     },
     {
       scope: 'storage.type.function.arrow',
       settings: {
-        fontStyle: 'normal',
         foreground: colors.base1
       }
     },
     {
       scope: 'storage.modifier',
       settings: {
-        fontStyle: 'italic',
         foreground: colors.base1
       }
     },
@@ -1089,7 +1082,6 @@ export default ({ name, colors }) => ({
     {
       scope: ['support.type', 'entity.name.type.object.console'],
       settings: {
-        fontStyle: 'italic',
         foreground: colors.accent1
       }
     },
@@ -1102,7 +1094,6 @@ export default ({ name, colors }) => ({
     {
       scope: 'support.type.property-name',
       settings: {
-        fontStyle: 'normal',
         foreground: colors.pure2
       }
     },
@@ -1133,7 +1124,6 @@ export default ({ name, colors }) => ({
     {
       scope: ['variable.parameter', 'parameters variable.function'],
       settings: {
-        fontStyle: 'italic',
         foreground: colors.accent2
       }
     },

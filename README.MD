@@ -4,7 +4,7 @@ A fork of [oh-lucy-vscode-theme](https://github.com/Hermitter/oh-lucy-vscode-the
 
 ## Changes from the original
 
-**Darker backgrounds** — All background surfaces are darkened to 50% of their original brightness, giving the editor a deeper, more receded feel.
+**Darker backgrounds** — All background surfaces are darkened to 70% of their original brightness, giving the editor a deeper, more receded feel.
 
 **Translucent UI elements** — Many workbench colors that were fully opaque in the original are now semi-transparent:
 - Git decorations (modified, deleted, untracked) use 40–55% opacity instead of solid colors, so they tint rather than dominate the file tree
@@ -18,6 +18,8 @@ A fork of [oh-lucy-vscode-theme](https://github.com/Hermitter/oh-lucy-vscode-the
 **Swapped git colors** — Modified files show as orange and untracked files as green (the original had these reversed).
 
 **Editor widgets** — Suggest, hover, and other popup widgets use a slightly lighter background than the editor, rather than matching the panel color.
+
+**Reduced font styling** — The original theme italicized many token types (attributes, parameters, storage types, CSS variables, etc.). Most of these have been removed for a cleaner look. Only comments and `self`/`this` remain italic. Function declarations are bold.
 
 ## Installation
 

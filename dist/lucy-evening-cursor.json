@@ -437,13 +437,13 @@
     {
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#56c6d5"
       }
     },
     {
       "scope": "entity.name.function",
       "settings": {
+        "fontStyle": "bold",
         "foreground": "#7ec49d"
       }
     },
@@ -459,7 +459,6 @@
     {
       "scope": "entity.other.attribute-name",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#56c6d5"
       }
     },
@@ -482,7 +481,6 @@
     {
       "scope": "entity.other.attribute-name.pseudo-class.cssentity.other.pseudo-class.css",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#56c6d5"
       }
     },
@@ -504,7 +502,7 @@
     {
       "scope": "invalid",
       "settings": {
-        "fontStyle": "italic"
+        "foreground": "#ff7da3"
       }
     },
     {
@@ -628,7 +626,7 @@
     {
       "scope": "markup.quote",
       "settings": {
-        "fontStyle": "italic"
+        "foreground": "#938884"
       }
     },
     {
@@ -919,7 +917,6 @@
         "source.less variable.declaration.less"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ffac5c"
       }
     },
@@ -974,28 +971,24 @@
     {
       "scope": "storage.type",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#56c6d5"
       }
     },
     {
       "scope": "storage.type.extends",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#ff7da3"
       }
     },
     {
       "scope": "storage.type.function.arrow",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#ff7da3"
       }
     },
     {
       "scope": "storage.modifier",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ff7da3"
       }
     },
@@ -1107,7 +1100,6 @@
         "entity.name.type.object.console"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#56c6d5"
       }
     },
@@ -1120,7 +1112,6 @@
     {
       "scope": "support.type.property-name",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#ded7d0"
       }
     },
@@ -1157,7 +1148,6 @@
         "parameters variable.function"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ffac5c"
       }
     },
