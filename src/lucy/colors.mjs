@@ -1,74 +1,73 @@
 export default {
-  background1: '#0a0a0f',
-  background2: '#0e0f15',
-  background3: '#12141b',
-  background3Half: '#161820',
-  background4: '#1d1f27',
-  background4Light: '#20222d',
-  selection: '#413b4f',
-  dim1: '#494c59',
-  dim2: '#5e6173',
-  dim3: '#88898f',
-  dim4: '#c3b5d3',
-  pure1: '#dfdfdf',
-  pure2: '#d7d7d7',
-  const: '#af98e6',
-  accent1: '#51c7da',
-  accent2: '#fdad5d',
-  call: '#76c5a4',
-  base1: '#fb7da7',
-  base2: '#e3cf65',
-  translucent: '#0f1117bf',
+  background1: '#0c0a0d',
+  background2: '#100f13',
+  background3: '#151418',
+  background3Half: '#19181d',
+  background4: '#211f23',
+  background4Light: '#252228',
+  selection: '#493b47',
+  dim1: '#524b51',
+  dim2: '#686069',
+  dim3: '#938884',
+  dim4: '#ccb5ca',
+  pure1: '#e5dfd9',
+  pure2: '#ded7d0',
+  const: '#b898dd',
+  accent1: '#56c6d5',
+  accent2: '#ffac5c',
+  call: '#7ec49d',
+  base1: '#ff7da3',
+  base2: '#f0ce59',
+  translucent: '#111115bf',
   translucent2: '#ffffff26',
-  translucent3: '#ffffff0c',
-  translucent4: '#76c5a40c',
-  translucent5: '#76c5a426',
-  translucent6: '#ff84ad0c',
+  translucent3: '#ffffff0d',
+  translucent4: '#7ec49d0d',
+  translucent5: '#7ec49d26',
+  translucent6: '#ff84ad0d',
   translucent7: '#ff84ad26',
   translucent8: '#00000000',
   translucent9: '#ffffff12',
 
-  // Cursor-style alpha variants
   // Git decorations: accent colors at 40-55% alpha
-  gitModified: '#fdad5d8c',       // accent2 @ 55%
-  gitDeleted: '#fb7da78c',        // base1 @ 55%
-  gitUntracked: '#76c5a473',      // call @ 45%
-  gitIgnored: '#494c5966',        // dim1 @ 40%
-  gitConflicting: '#fdad5d73',    // accent2 @ 45%
+  gitModified: '#ffac5c8c',
+  gitDeleted: '#ff7da38c',
+  gitUntracked: '#7ec49d73',
+  gitIgnored: '#93888466',
+  gitConflicting: '#ffac5c73',
 
   // Diagnostics: squiggles at 50-60% alpha, borders transparent
-  diagError: '#fb7da799',         // base1 @ 60%
-  diagWarning: '#fdad5d8c',       // accent2 @ 55%
-  diagInfo: '#51c7da80',          // accent1 @ 50%
-  diagHint: '#af98e680',          // const @ 50%
+  diagError: '#ff7da399',
+  diagWarning: '#ffac5c8c',
+  diagInfo: '#56c6d580',
+  diagHint: '#b898dd80',
 
   // Status bar: background at 85% alpha
-  statusBg: '#0e0f15d9',          // background2 @ 85%
-  statusWarning: '#fdad5d40',     // accent2 @ 25%
-  statusError: '#fb7da74d',       // base1 @ 30%
+  statusBg: '#100f13d9',
+  statusWarning: '#ffac5c40',
+  statusError: '#ff7da34d',
 
   // Minimap highlights: 30-40% alpha
-  minimapFind: '#e3cf654d',       // base2 @ 30%
-  minimapSelection: '#413b4f66',  // selection @ 40%
-  minimapError: '#fb7da74d',      // base1 @ 30%
-  minimapWarning: '#fdad5d4d',    // accent2 @ 30%
+  minimapFind: '#f0ce594d',
+  minimapSelection: '#493b4766',
+  minimapError: '#ff7da34d',
+  minimapWarning: '#ffac5c4d',
 
   // Bracket pair guides: 35% alpha
-  bracket1: '#fb7da759',          // base1 @ 35%
-  bracket2: '#fdad5d59',          // accent2 @ 35%
-  bracket3: '#51c7da59',          // accent1 @ 35%
-  bracket4: '#76c5a459',          // call @ 35%
-  bracket5: '#af98e659',          // const @ 35%
-  bracket6: '#e3cf6559',          // base2 @ 35%
+  bracket1: '#ff7da359',
+  bracket2: '#ffac5c59',
+  bracket3: '#56c6d559',
+  bracket4: '#7ec49d59',
+  bracket5: '#b898dd59',
+  bracket6: '#f0ce5959',
 
   // Selection/highlight backgrounds: 20-25% alpha
-  selectionBg: '#413b4f40',       // selection @ 25%
-  highlightBg: '#ffffff33',       // white @ 20%
-  wordHighlight: '#ffffff3d',     // white @ 24%
-  findMatch: '#e3cf6540',         // base2 @ 25%
-  findMatchHighlight: '#e3cf6533',// base2 @ 20%
+  selectionBg: '#493b4740',
+  highlightBg: '#ffffff33',
+  wordHighlight: '#ffffff3d',
+  findMatch: '#f0ce5940',
+  findMatchHighlight: '#f0ce5933',
 
   // Editor widget backgrounds: main bg slightly lighter
-  widgetBg: '#181a22',
-  widgetBorder: '#1d1f28',
+  widgetBg: '#1c1a1e',
+  widgetBorder: '#211f24',
 }
