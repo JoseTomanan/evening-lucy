@@ -1,4 +1,4 @@
-# Lucy Evening Cursor
+# Evening Lucy
 
 A fork of [oh-lucy-vscode-theme](https://github.com/Hermitter/oh-lucy-vscode-theme), stripped down to a single theme built on the lucy-evening palette with the following opinionated changes:
 
@@ -34,3 +34,4 @@ Edit the colors in `src/lucy/colors.mjs`, then run `npm run build` to regenerate
 ## Credits
 
 Based on [oh-lucy-vscode-theme](https://github.com/Hermitter/oh-lucy-vscode-theme) by Hermitter, which is itself based on the original [lucy-vscode-theme](https://github.com/jul-sh/lucy-vscode-theme).
+God bless you for this amazing color scheme.

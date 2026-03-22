@@ -8,12 +8,12 @@ const promisifiedWriteFile = promisify(writeFile);
 const buildTheme = async () => {
   try {
     const themeWithColors = theme({
-      'name': 'Lucy Evening Cursor',
+      'name': 'Evening Lucy',
       'colors': colors
     });
 
     await promisifiedWriteFile(
-      './dist/lucy-evening-cursor.json',
+      './dist/evening-lucy.json',
       JSON.stringify(themeWithColors, null, 2)
     );
     console.log('🌺 Theme built. 💅');
