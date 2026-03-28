@@ -1,37 +1,37 @@
 # Evening Lucy
 
-A fork of [oh-lucy-vscode-theme](https://github.com/Hermitter/oh-lucy-vscode-theme), stripped down to a single theme built on the lucy-evening palette with the following opinionated changes:
+A fork of [oh-lucy-vscode-theme](https://github.com/Hermitter/oh-lucy-vscode-theme), stripped to a single theme built on the lucy-evening palette.
 
 ## Changes from the original
 
-**Darker backgrounds** — All background surfaces are darkened to 70% of their original brightness, giving the editor a deeper, more receded feel.
+**Backgrounds** — Darkened and fully desaturated to neutral grays for cleaner contrast.
 
-**Translucent UI elements** — Many workbench colors that were fully opaque in the original are now semi-transparent:
-- Git decorations (modified, deleted, untracked) use 40–55% opacity instead of solid colors, so they tint rather than dominate the file tree
-- Diagnostic squiggles (errors, warnings, info) are 50–60% opacity for softer inline feedback
-- Minimap highlights sit at 30–40% opacity to stay visible without drawing the eye
-- Bracket pair guides use 35% opacity so they fade into the background when not needed
-- Selection and word-highlight backgrounds are 20–25% opacity for subtle, non-distracting emphasis
+**Foreground hierarchy** — Main foreground brightened and warmed; secondary foreground levels tuned to match Cursor's contrast ratios. Strings use a desaturated gold to avoid dominating the eye.
 
-**More opaque status bar** — The status bar background uses 85% opacity, with warning and error items at 25–30% opacity so they blend into the bar rather than flash.
+**Translucent UI** — Git decorations, diagnostics, minimap highlights, and bracket guides use alpha-based colors to tint rather than dominate.
 
-**Swapped git colors** — Modified files show as orange and untracked files as green (the original had these reversed).
+**Selection & highlights** — Active list selections use alpha-white overlays (matching Cursor's approach) with bright white foreground. Word and find highlights are properly weighted.
 
-**Editor widgets** — Suggest, hover, and other popup widgets use a slightly lighter background than the editor, rather than matching the panel color.
+**Current line & indent guides** — Line highlight is a solid visible step above the editor background. Indent guides use alpha-white so they appear correctly on any background.
 
-**Reduced font styling** — The original theme italicized many token types (attributes, parameters, storage types, CSS variables, etc.). Most of these have been removed for a cleaner look. Only comments and `self`/`this` remain italic. Function declarations are bold.
+**Bracket matching** — Bracket pairs get a visible background rather than relying solely on a dim border.
+
+**Token adjustments** — Operators are neutral (near-foreground); expression operators (`typeof`, `instanceof`, etc.) are teal. Property access gets its own lavender color distinct from plain variables. Python decorators are not bold.
+
+**Swapped git colors** — Modified files show as orange, untracked as green.
+
+**Status bar** — 85% opacity background; warning and error items blend into the bar at low opacity.
 
 ## Installation
 
-1. Clone or download this repository
+1. Clone this repository
 2. Run `npm install && npm run build`
 3. Symlink or copy the folder into your editor's extensions directory
 
 ## Customization
 
-Edit the colors in `src/lucy/colors.mjs`, then run `npm run build` to regenerate the theme into `dist/`.
+Edit `src/evening-lucy/colors.mjs`, then run `npm run build` to regenerate into `dist/`.
 
 ## Credits
 
-Based on [oh-lucy-vscode-theme](https://github.com/Hermitter/oh-lucy-vscode-theme) by Hermitter, which is itself based on the original [lucy-vscode-theme](https://github.com/jul-sh/lucy-vscode-theme).
-God bless you for this amazing color scheme.
+Based on [oh-lucy-vscode-theme](https://github.com/Hermitter/oh-lucy-vscode-theme) by Hermitter, itself based on [lucy-vscode-theme](https://github.com/jul-sh/lucy-vscode-theme).
