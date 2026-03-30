@@ -415,7 +415,7 @@
     {
       "scope": "entity.name",
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
@@ -446,7 +446,7 @@
       "scope": "entity.name.function",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
@@ -482,7 +482,7 @@
         "entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css"
       ],
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
@@ -503,7 +503,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
@@ -609,7 +609,7 @@
     {
       "scope": "markup.underline.link",
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
@@ -679,7 +679,7 @@
         "meta.function-call.arguments meta.function-call"
       ],
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
@@ -695,13 +695,13 @@
     {
       "scope": "meta.instance.constructor",
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
       "scope": "meta.attribute-with-value.class string",
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
@@ -892,7 +892,7 @@
     {
       "scope": "region.greenish",
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
@@ -1092,7 +1092,7 @@
         "string.other.restructuredtext.ref"
       ],
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
@@ -1122,7 +1122,7 @@
     {
       "scope": "support.function",
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {
@@ -1236,7 +1236,7 @@
     {
       "scope": "variable.function",
       "settings": {
-        "foreground": "#78cc9c"
+        "foreground": "#78cca1"
       }
     },
     {

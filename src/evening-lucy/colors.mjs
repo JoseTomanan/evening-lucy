@@ -15,7 +15,7 @@ export default {
   const: '#b898dd',
   accent1: '#56c6d5',
   accent2: '#ffac5c',
-  call: '#78cc9c',
+  call: '#78cca1',
   added: '#56d48a',
   base1: '#eb6d96',
   base2: '#d4b87a',
