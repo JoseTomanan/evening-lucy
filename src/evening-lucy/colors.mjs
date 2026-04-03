@@ -1,9 +1,9 @@
 export default {
   background1: '#080808',
   background2: '#0d0d0d',
-  background3: '#161616',
+  background3: '#141414',
   background3Half: '#191919',
-  background4: '#1f1f1f',
+  background4: '#212121',
   background4Light: '#282828',
   // background1: '#090709',
   // background2: '#0f0e11',
