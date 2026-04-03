@@ -1,6 +1,12 @@
 export default ({ name, colors }) => ({
   name,
   type: 'dark',
+  semanticHighlighting: true,
+  semanticTokenColors: {
+    'function.declaration': { foreground: colors.call, fontStyle: 'bold' },
+    'method.declaration': { foreground: colors.call, fontStyle: 'bold' },
+    'meta.definition.property.ts': { foreground: colors.const, fontStyle: 'bold' }
+  },
   colors: {
     focusBorder: colors.dim2,
     foreground: colors.pure2,
@@ -447,7 +453,6 @@ export default ({ name, colors }) => ({
     {
       scope: 'entity.name.function',
       settings: {
-        fontStyle: 'bold',
         foreground: colors.call
       }
     },
@@ -1155,6 +1160,7 @@ export default ({ name, colors }) => ({
     {
       scope: ['variable.parameter', 'parameters variable.function'],
       settings: {
+        fontStyle: 'italic',
         foreground: colors.accent2
       }
     },
@@ -1228,6 +1234,27 @@ export default ({ name, colors }) => ({
       ],
       settings: {
         foreground: colors.const
+      }
+    },
+    {
+      name: 'js/ts italic',
+      scope: 'entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.language.super',
+      settings: {
+        fontStyle: 'italic'
+      }
+    },
+    {
+      name: 'Python Keyword Control',
+      scope: 'keyword.control.import.python,keyword.control.flow.python',
+      settings: {
+        fontStyle: 'italic'
+      }
+    },
+    {
+      name: 'markup.italic.markdown',
+      scope: 'markup.italic.markdown',
+      settings: {
+        fontStyle: 'italic'
       }
     }
   ]
