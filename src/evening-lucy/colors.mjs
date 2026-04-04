@@ -29,11 +29,11 @@ export default {
   // Muted text - Activity bar icons, inactive tabs, buttons
   dim3: '#9e9794',
   // Muted text - Active line numbers, unfocused active tabs
-  dim4: '#ccb5ca',
+  dim4: '#c7b9c6',
   // Bright text - Active list selections, active tabs, panel titles
-  pure1: '#f2eeeb',
+  pure1: '#efebe7',
   // Primary text - Editor text, terminal text, global foreground, inputs
-  pure2: '#eeebe7',
+  pure2: '#ebe8e3',
   // Syntax - Constants, properties (purple)
   const: '#b898dd',
   // Syntax - Accent cyan - Types, imports, terminal cyan
