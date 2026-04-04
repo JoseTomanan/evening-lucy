@@ -8,12 +8,15 @@ export default ({ name, colors }) => ({
     'meta.definition.property.ts': { foreground: colors.const, fontStyle: 'bold' }
   },
   colors: {
+    // Global surfaces and defaults
     focusBorder: colors.dim2,
     foreground: colors.pure2,
     'widget.shadow': colors.background1,
     'selection.background': colors.selection,
     descriptionForeground: colors.dim3,
     errorForeground: colors.base1,
+
+    // Rich text and links
     'textBlockQuote.background': colors.background4,
     'textBlockQuote.border': colors.background4,
     'textCodeBlock.background': colors.background4,
@@ -21,6 +24,8 @@ export default ({ name, colors }) => ({
     'textLink.foreground': colors.base2,
     'textPreformat.foreground': colors.pure2,
     'textSeparator.foreground': colors.dim2,
+
+    // Form controls and validation
     'button.background': colors.background4,
     'button.foreground': colors.dim3,
     'button.hoverBackground': colors.background3,
@@ -39,6 +44,8 @@ export default ({ name, colors }) => ({
     'inputValidation.infoBorder': colors.accent1,
     'inputValidation.warningBackground': colors.bacbackground3Halfkground4,
     'inputValidation.warningBorder': colors.accent2,
+
+    // Scrollbars, badges, and progress
     'scrollbar.shadow': colors.background3,
     'scrollbarSlider.activeBackground': colors.translucent9,
     'scrollbarSlider.background': colors.translucent9,
@@ -46,6 +53,8 @@ export default ({ name, colors }) => ({
     'badge.foreground': colors.background3,
     'badge.background': colors.base2,
     'progressBar.background': colors.background4,
+
+    // Lists and item states
     'list.activeSelectionBackground': colors.translucent2,
     'list.activeSelectionForeground': colors.pure1,
     'list.errorForeground': colors.base1,
@@ -60,6 +69,8 @@ export default ({ name, colors }) => ({
     'list.inactiveSelectionForeground': colors.pure1,
     'list.inactiveFocusBackground': colors.translucent9,
     'list.invalidItemForeground': colors.base1,
+
+    // Activity and side bars
     'activityBar.background': colors.background1,
     'activityBar.dropBackground': colors.translucent,
     'activityBar.foreground': colors.dim3,
@@ -73,6 +84,8 @@ export default ({ name, colors }) => ({
     'sideBarTitle.foreground': colors.dim1,
     'sideBarSectionHeader.background': colors.background2,
     'sideBarSectionHeader.foreground': colors.dim2,
+
+    // Editor groups and tabs
     'editorGroup.background': colors.background1,
     'editorGroup.border': colors.background2,
     'editorGroup.dropBackground': colors.translucent,
@@ -92,6 +105,8 @@ export default ({ name, colors }) => ({
     'tab.unfocusedHoverBackground': colors.background3,
     'tab.hoverBorder': colors.dim1,
     'tab.unfocusedHoverBorder': colors.background3,
+
+    // Core editor, selection, and search
     'editor.background': colors.background3,
     'editor.foreground': colors.pure2,
     'editorLineNumber.foreground': colors.dim1,
@@ -153,6 +168,8 @@ export default ({ name, colors }) => ({
     'editorHoverWidget.border': colors.widgetBorder,
     'debugExceptionWidget.background': colors.background4,
     'debugExceptionWidget.border': colors.background3,
+
+    // Peek, merge, and overview ruler
     'editorMarkerNavigation.background': colors.background4,
     'editorMarkerNavigationError.background': colors.base1,
     'editorMarkerNavigationWarning.background': colors.accent2,
@@ -191,6 +208,8 @@ export default ({ name, colors }) => ({
     'editorOverviewRuler.errorForeground': colors.base1,
     'editorOverviewRuler.warningForeground': colors.accent2,
     'editorOverviewRuler.infoForeground': colors.accent1,
+
+    // Panels and status bar
     'panel.background': colors.background4,
     'panel.border': colors.background3,
     'panel.dropBackground': colors.translucent,
@@ -212,6 +231,8 @@ export default ({ name, colors }) => ({
     'statusBarItem.hoverBackground': colors.background3,
     'statusBarItem.prominentBackground': colors.background4,
     'statusBarItem.prominentHoverBackground': colors.background4,
+
+    // Window chrome and notifications
     'titleBar.activeBackground': colors.background2,
     'titleBar.activeForeground': colors.dim3,
     'titleBar.inactiveBackground': colors.background2,
@@ -230,6 +251,8 @@ export default ({ name, colors }) => ({
     'extensionButton.prominentHoverBackground': colors.dim1,
     'pickerGroup.border': colors.background3,
     'pickerGroup.foreground': colors.dim1,
+
+    // Terminal and debug UI
     'terminal.background': colors.background4,
     'terminal.foreground': colors.pure2,
     'terminal.ansiBlack': colors.background4,
@@ -255,6 +278,8 @@ export default ({ name, colors }) => ({
     'welcomePage.buttonBackground': colors.background4,
     'welcomePage.buttonHoverBackground': colors.dim1,
     'walkThrough.embeddedEditorBackground': colors.background2,
+
+    // SCM decorations
     'gitDecoration.modifiedResourceForeground': colors.gitModified,
     'gitDecoration.deletedResourceForeground': colors.gitDeleted,
     'gitDecoration.untrackedResourceForeground': colors.gitUntracked,
