@@ -46,8 +46,8 @@ export default {
   added: '#56d48a',
   // Syntax - Keywords, errors, deleted lines (pink)
   base1: '#eb6d96',
-  // Syntax - Variables, parameters, badges (gold)
-  base2: '#d4b87a',
+  // Syntax - Variables, parameters, badges (yellow)
+  base2: '#d5c77c',
   // Semi-transparent overlay - Drop backgrounds
   translucent: '#111111bf',
   // Semi-transparent overlay - Active selections, terminal selections
