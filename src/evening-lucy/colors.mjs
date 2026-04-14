@@ -1,16 +1,16 @@
 export default {
   // Darkest background - Activity bar, widget shadows
-  background1: '#080808',
+  background1: '#08060a',
   // Sidebar background, editor group borders
-  background2: '#0d0d0d',
+  background2: '#0f0d11',
   // Editor background, tabs, dropdown backgrounds
-  background3: '#151515',
+  background3: '#161418',
   // Input fields background
-  background3Half: '#1b1b1b',
+  background3Half: '#1d1b1f',
   // Slightly lighter backgrounds - widgets, peek views, various UI elements
-  background4: '#212121',
+  background4: '#262428',
   // Editor indent guides, ruler
-  background4Light: '#282828',
+  background4Light: '#2c2a2e',
   
   /* ARTIFACT ARCHIVED FOR REFERENCE; IGNORE */
   // background1: '#090709',
